@@ -39,7 +39,7 @@ body {
 }
 
 .button {
-  color: #09009B;
+  color: #0F00FF;
   margin-left: 5px;
   margin-right: 5px;
 }
@@ -57,15 +57,15 @@ p {
 }
 
 #journalism-experience {
-  background-color: #09009B;
+  background-color: #0F00FF;
 }
 
 #education {
-  background-color: #09009B;
+  background-color: #0F00FF;
 }
 
 footer {
   text-align: center;
-  background-color: #09009B;
+  background-color: #0F00FF;
   width: 100%;
 }
