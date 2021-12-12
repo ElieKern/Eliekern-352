@@ -1,0 +1,108 @@
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+  border: 2px solid black;
+}
+
+.topnav a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: white;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: 2px solid black;
+}
+
+#headline {
+  font-family: Chalkduster, fantasy;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+
+#byline {
+  font-family: Chalkduster, fantasy;
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: Garamond, Georgia, serif;
+}
+
+.emphasis::first-letter {
+  font-size: 250%;
+  color: ##0000FF;
+  font-weight: bold;
+}
+
+.row {
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.blockquote1 {
+  font: 30px/40px normal Garamond, Georgia, serif;
+  text-transform: uppercase;
+  color: ##0000FF;
+}
+
+
+span {
+  font-style: italic;
+  font-weight: bold;
+  color: #DB8C04;
+}
+
+.chart {
+  margin: auto;
+  width: 50%;
+}
+
+.graph {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  border: 2px solid black;
+}
